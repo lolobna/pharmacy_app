@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/rechercheFragment">
+
+    <fragment
+        android:id="@+id/rechercheFragment"
+        android:name="com.example.pharmacieapp.fragmentDeRecherche.RechercheFragment"
+        android:label="fragment_recherche"
+        tools:layout="@layout/fragment_recherche" >
+        <action
+            android:id="@+id/action_rechercheFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.pharmacieapp.fragmentDeRecherche.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detailFragment_to_reservationFragment"
+            app:destination="@id/reservationFragment" />
+        <argument
+            android:name="Medicament"
+            app:argType="com.example.pharmacieapp.classes.Medicament"
+            />
+
+    </fragment>
+    <fragment
+        android:id="@+id/reservationFragment"
+        android:name="com.example.pharmacieapp.fragmentDeRecherche.ReservationFragment"
+        android:label="fragment_reservation"
+        tools:layout="@layout/fragment_reservation" >
+
+        <argument
+            android:name="Medicament"
+            app:argType="com.example.pharmacieapp.classes.Medicament"
+            />
+
+    </fragment>
+
+
+
+</navigation>

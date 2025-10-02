@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">PharmacieApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Api_key">AIzaSyCDp-F_JW5uIGMSZptmEX6usbeHoCKy1Wg</string>
+
+
+    <string name="profil">Profil</string>
+    <string name="chercher_un_m_dicament">Chercher un médicament</string>
+    <string name="historique_d_achat">Historique d\'achat</string>
+    <string name="qui_sommes_nous">Qui sommes-nous ?</string>
+    <string name="envoyer_une_ordonnance">Envoyer une ordonnance</string>
+    <string name="voir_nos_locations">voir nos locations</string>
+    <string name="medicaments">Medicaments</string>
+    <string name="ordonnace">Ordonnace</string>
+    <string name="name">Name</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="recherche_un_m_dicament">Recherche un médicament</string>
+    <string name="cat_gorie">Catégorie</string>
+    <string name="type">Type</string>
+    <string name="r_server">Réserver</string>
+    <string name="composants">Composants</string>
+    <string name="r_servation_de_m_dicament">Réservation de Médicament</string>
+    <string name="nom">Nom :</string>
+    <string name="prix">Prix :</string>
+    <string name="quantit">Quantité</string>
+    <string name="votre_total">Votre total</string>
+    <string name="confirmer_la_r_servation">Confirmer la Réservation</string>
+    <string name="historique_de_r_servation">Historique de réservation</string>
+    <string name="historique_des_ordonnaces">Historique des ordonnaces</string>
+    <string name="choisir_depuis_la_galerie">Choisir depuis la galerie</string>
+    <string name="prendre_une_photo_avec_la_cam_ra">Prendre une photo avec la caméra</string>
+    <string name="envoyer_ordonnance">Envoyer ordonnance</string>
+    <string name="nom_du_m_dicament">Nom du Médicament</string>
+    <string name="description">Description</string>
+    <string name="conseils">Conseils</string>
+    <string name="reservation_success">Réservation réussie!</string>
+
+    <string name="confirmation_reservation_title">Confirmation de Réservation</string>
+    <string name="confirmation_reservation_message">Êtes-vous sûr de vouloir réserver %1$s de %2$s ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="none">Aucun</string>
+    <string name="dr_karim_benkirane_cardiologue_sp_cialis_exer_ant_l_h_pital_universitaire_ibn_sina">Dr. Karim Benkirane, cardiologue spécialisé, exerçant à l’Hôpital Universitaire Ibn Sina.</string>
+    <string name="dr_ahmed_benkirane_cardiologue_sp_cialis_exer_ant_l_h_pital_universitaire_ibn_sina">Dr. Ahmed Benkirane, cardiologue spécialisé, exerçant à l’Hôpital Universitaire Ibn Sina.</string>
+    <string name="dr_omar_alami_dermatologue_exer_ant_la_clinique_anoual_casablanca">Dr. Omar Alami, dermatologue, exerçant à la Clinique Anoual à Casablanca.</string>
+    <string name="contactez_nous_cette_adresse_e_mail">Contactez-nous  :</string>
+    <string name="s_inscrire">s\'inscrire</string>
+    <string name="se_connecter">se connecter</string>
+    <string name="e_mail">E_mail</string>
+    <string name="mot_de_passe">mot de passe</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="num_ro">Numéro</string>
+
+
+</resources>

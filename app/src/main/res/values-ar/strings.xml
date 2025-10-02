@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">تطبيق الصيدلية</string>
+    <string name="hello_blank_fragment">مرحبا، هذه صفحة فارغة</string>
+
+    <string name="Api_key">AIzaSyCDp-F_JW5uIGMSZptmEX6usbeHoCKy1Wg</string>
+
+    <string name="profil">الملف الشخصي</string>
+    <string name="chercher_un_m_dicament">البحث عن دواء</string>
+    <string name="historique_d_achat">سجل المشتريات</string>
+    <string name="qui_sommes_nous">من نحن؟</string>
+    <string name="envoyer_une_ordonnance">إرسال وصفة طبية</string>
+    <string name="voir_nos_locations">رؤية مواقعنا</string>
+    <string name="medicaments">الأدوية</string>
+    <string name="ordonnace">وصفة طبية</string>
+    <string name="name">الاسم</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="recherche_un_m_dicament">البحث عن دواء</string>
+    <string name="cat_gorie">الفئة</string>
+    <string name="type">النوع</string>
+    <string name="r_server">احجز</string>
+    <string name="composants">المكونات</string>
+    <string name="r_servation_de_m_dicament">حجز دواء</string>
+    <string name="nom">الاسم:</string>
+    <string name="prix">السعر:</string>
+    <string name="quantit">الكمية</string>
+    <string name="votre_total">إجمالي</string>
+    <string name="confirmer_la_r_servation">تأكيد الحجز</string>
+    <string name="historique_de_r_servation">سجل الحجوزات</string>
+    <string name="historique_des_ordonnaces">سجل الوصفات الطبية</string>
+    <string name="choisir_depuis_la_galerie">اختر من المعرض</string>
+    <string name="prendre_une_photo_avec_la_cam_ra">خذ صورة باستخدام الكاميرا</string>
+    <string name="envoyer_ordonnance">إرسال وصفة طبية</string>
+    <string name="nom_du_m_dicament">الاسم</string>
+    <string name="description">الوصف</string>
+    <string name="conseils">نصائح</string>
+
+    <string name="reservation_success">الحجز ناجح!</string>
+    <string name="confirmation_reservation_title">تأكيد الحجز</string>
+    <string name="confirmation_reservation_message">هل أنت متأكد أنك تريد حجز %1$s من %2$s؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="none">لا شيء</string>
+    <string name="dr_karim_benkirane_cardiologue_sp_cialis_exer_ant_l_h_pital_universitaire_ibn_sina">الدكتور كريم بنكرين، أخصائي أمراض القلب، يعمل في المستشفى الجامعي ابن سينا.</string>
+    <string name="dr_ahmed_benkirane_cardiologue_sp_cialis_exer_ant_l_h_pital_universitaire_ibn_sina">الدكتور أحمد بنكرين، أخصائي أمراض القلب، يعمل في المستشفى الجامعي ابن سينا.</string>
+    <string name="dr_omar_alami_dermatologue_exer_ant_la_clinique_anoual_casablanca">الدكتور عمر العلمي، أخصائي الأمراض الجلدية، يعمل في عيادة أنوال بالدار البيضاء.</string>
+    <string name="contactez_nous_cette_adresse_e_mail">يرجى الاتصال بنا :</string>
+
+    <string name="s_inscrire">التسجيل</string>
+    <string name="se_connecter">تسجيل الدخول</string>
+    <string name="e_mail">البريد الإلكتروني</string>
+    <string name="mot_de_passe">كلمة السر</string>
+    <string name="pr_nom">الاسم الأول</string>
+    <string name="num_ro">الرقم</string>
+
+
+</resources>

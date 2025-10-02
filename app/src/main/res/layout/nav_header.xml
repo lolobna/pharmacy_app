@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorPrimary">  <!-- Couleur de fond de l'en-tête -->
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_profilee"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom d'utilisateur"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email@example.com"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_gravity="center" />
+
+    <!-- Section pour le RadioGroup -->
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:padding="16dp"
+        android:background="@color/colorPrimary">
+
+        <RadioButton
+            android:id="@+id/radio_french"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Français"
+
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/radio_arabic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="العربية"
+
+            android:textColor="@android:color/white"/>
+    </RadioGroup>
+
+</LinearLayout>

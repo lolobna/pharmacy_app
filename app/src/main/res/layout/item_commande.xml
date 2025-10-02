@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/colorPrimary"
+    android:clickable="true"
+    android:elevation="6dp"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:padding="24dp">
+
+    <!-- Image du médicament -->
+    <ImageView
+        android:id="@+id/medicamentImageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="Medicament Image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <!-- Conteneur des détails -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Nom du médicament -->
+        <TextView
+            android:id="@+id/medicamentNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Medicament Name"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Prix -->
+        <TextView
+            android:id="@+id/medicamentPriceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Price: $10.00"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+
+        <!-- Quantité -->
+        <TextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Quantity: 2"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+
+        <!-- Date de réservation -->
+        <TextView
+            android:id="@+id/dateReservationTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Reservation Date: 2025-01-01"
+            android:textColor="#555555"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>
